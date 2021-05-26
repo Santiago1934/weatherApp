@@ -1,0 +1,61 @@
+#logoHenry {
+  margin-right: 20px;
+}
+
+.containerNav {
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(31, 27, 27);
+  align-items: center;
+}
+
+.title {
+  font-size: 4vh;
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.containerLinks {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: -5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 0.8rem;
+}
+
+.darkMode {
+  width: 6rem;
+  height: 1.5rem;
+  padding-bottom: 1rem;
+  overflow: none;
+  outline: transparent;
+  border-color: transparent;
+  border-radius: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.darkMode:hover {
+  transition: 500ms;
+  background-color: black;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.searchBar {
+  width: 15rem;
+  border-radius: 0.2rem;
+  outline: none;
+  border-color: transparent;  
+}
+
+.buttonSub {
+  width: 10rem;
+  background-color: rgb(112, 146, 143);
+}
