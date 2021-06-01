@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  background-color: rgb(31, 27, 27);
+  background-color: rgb(63, 58, 58);
   align-items: center;
 }
 
@@ -27,22 +27,14 @@
   margin-top: 0.8rem;
 }
 
-.darkMode {
-  width: 6rem;
-  height: 1.5rem;
-  padding-bottom: 1rem;
-  overflow: none;
-  outline: transparent;
-  border-color: transparent;
-  border-radius: 0.2rem;
-  margin-bottom: 0.8rem;
+.containerIcon {
+ width: 5rem;
+ margin-right: 2rem;
+ margin-bottom: 1rem;
+cursor: pointer;
 }
 
-.darkMode:hover {
-  transition: 500ms;
-  background-color: black;
-  color: aliceblue;
-}
+
 
 a {
   text-decoration: none;

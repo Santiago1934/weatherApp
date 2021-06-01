@@ -76,7 +76,7 @@ function App() {
   return (
     <div className="App" style={ darkMode ? {backgroundColor:"#575361", transition:"500ms"} : {backgroundColor:"#CFC6E6", transition:"500ms"}}>
 
-      <Nav onSearch={onSearch}  handleDarkMode= {handleDarkMode} />
+      <Nav onSearch={onSearch} darkMode={darkMode} handleDarkMode= {handleDarkMode} />
       {Rutas}
      
       <div>

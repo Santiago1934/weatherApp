@@ -1,10 +1,13 @@
 import React from 'react';
 import SearchBar from './SearchBar.jsx';
 import {Link} from "react-router-dom";
+import sol from "./img/sol.png"
+import noche from "./img/noche.png"
 import './Nav.css';
 
 
-function Nav({onSearch, handleDarkMode}) {
+function Nav({onSearch, handleDarkMode, darkMode}) {
+  console.log("hola!" + darkMode)
   return (
     
     <nav className="containerNav">
@@ -22,7 +25,13 @@ function Nav({onSearch, handleDarkMode}) {
         <div className="containerLinks">
                 <Link to="/about" style={{textDecoration:"none"}}><p style={{color:"white"}}>About Us</p></Link>
 
-        <button onClick={()=> handleDarkMode()} className="darkMode">Dark Mode</button>
+        
+        <div className="containerIcon">
+          {darkMode ? <img src={sol} width="50%" height="auto" onClick={()=> handleDarkMode()}></img> : 
+          <img src={noche} width="50%" height="auto" onClick={()=> handleDarkMode()}></img>}
+        </div>
+
+
         </div>
     </nav>
     
